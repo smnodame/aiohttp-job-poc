@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN pip3.7 install -r requirements.txt
 
-CMD ["python3", "main.py"]
+CMD ["python3", "-u", "main.py"]
